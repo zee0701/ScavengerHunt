@@ -1,0 +1,50 @@
+{
+    "Hunts" :     {
+        "-Km7seMIOsj4CGtRaVtP" : "Periwinkle Park",
+        "-Km7u77xucwiSOypba7y" : "Sanibel Public Library"
+    },
+    "Periwinkle Park" :     {
+        "1149" : "14_Walk out of the main entrance of Periwinkle Park & Campground and turn left and walk along the bike path beside Periwinkle Way.13. What number is on the sign where the Sanibel Sunglass Corporate Office is located?",
+        "12082" : "9_Walk along Junonia Street and look for a mailbox with a sand dollar.8. What number is on the mailbox?",
+        "30" : "3_Keep walking along the bike path beside Donax Street.2. What is the speed limit?",
+        "3669" : "5_Keep walking along the bike path until you come to a green metal box.4. What are the numbers on the small green electric box?",
+        "4" : "7_Cross over the Sanibel River and look to your right.6. What number is on the top of the water height meter?",
+        "811" : "6_Keep walking along the bike path until you come to another green metal box.5. What number do you call before you dig?",
+        "Fish" : "18_Keep walking along the bike path beside Periwinkle Way.17. What is the shape of the orange and white chairs in front of the Anchor Inn?",
+        "Fred" : "13_Walk over to the main zoo.12. What is the name of the Green-winged Macaw from South America?",
+        "Gopher Tortoise" : "8_Pass Sanibel Shores Condos and cross left over Donax Street onto Junonia Street.7. What kind of animal crosses here",
+        "Junonia" : "15_Keep walking along the bike path beside Periwinkle Way.14. What large shell is on the She Shells Sea Shells sign?",
+        "Lions" : "2_Cross over Periwinkle Way at the cross walk. Turn left and walk along the bike path and then turn right down Donax Street.1. What animal name in on the benches?",
+        "Moon" : "17_Keep walking along the bike path beside Periwinkle Way.16. Who is \\U201csipping\\U201d on pasta at Matzaluna\\U2019s Restaurant?",
+        "No" : "10_Go straight where the sign says No Outlet.9. Are dogs allowed?",
+        "OK" : "1_The start for this hunt is Bailey Homestead Preserve parking lot at 1300 Periwinkle Way.This hunt is approximately 1.8 miles long.\nPlease Note:\n-Hunt at your own risk\n-Beware of your surroundings\n-Apply sunscreen\n-Stay hydrated\n-Answers are case sensitive and must match exactly\nPlease enter OK to continue",
+        "Water" : "4_Keep walking along the bike path beside Donax Street.3. What is reclaimed at the facility under the American Flag?",
+        "Wiren" : "16_Keep walking along the bike path beside Periwinkle Way and enter the gazebo.15. What is the last name of the husband and wife that came to Sanibel is 1884?",
+        "Young" : "11_Stay on the main dirt road.10. What is the name on the solar contraption by the river?",
+        "Zoe" : "12_Keep walking along the road. Look into the second birdcage on the right.11. What is the girl\\U2019s name on the sign?",
+        "total" : 18
+    },
+    "Sanibel Public Library" :     {
+        "171" : "10_Keep walking along the bike path.9. What number is the fire station?",
+        "1983" : "5_Go down the next set of steps out the front.4. According the brass plaque at the bottom of the steps, what year was this City Hall dedicated?",
+        "2340" : "13_Go back out to the bike path and continue walking to the right.12. What is the address of the Village shops?",
+        "472-3700" : "2_Walk along the paved driveway to the next grey building which is City Hall. Walk behind City Hall through the gravel parking lot to the Native Plant Demonstration Garden.1. According to the sign, what number should you call for more information?",
+        "Dolphin" : "3_Walk left on the sidewalk and and look up to the roof.2.What animal is on top of the weathervane?",
+        "Five" : "4_Walk up the main steps.3. How many benches at at the top of the steps?",
+        "Hose" : "18_Keep walking through some curves in the bike path.17. What is hanging on the outside of the small block building behind the green chain link fence?",
+        "Keystone" : "19_Keep walking and cross the crosswalk to the library.18. What is the silver statue called in the front of the library?",
+        "Mahogany" : "8_Keep walking around the bend to the left.7. What road do you cross over (orange sign)?",
+        "OK" : "1_Park at the Sanibel Public Library. 770 Dunlop Road, Sanibel, FL 33957 This hunt is approximately 1.2 mile long.\nPlease Note:\n-Hunt at your own risk\n-Beware of your surroundings\n-Apply sunscreen\n-Stay hydrated\n-Answers are case sensitive and must match exactly\nPlease enter OK to continue.",
+        "Palm Ridge Road" : "7_Make your way to the main road and cross over to the bike path and walk right.6. According to the green sign, what road is straight ahead?",
+        "Periwinkle Pines" : "17_Keep walking and curve left on the bike path toward library, city hall, etc.16. What is the housing development called across the street to your right?",
+        "Rembos" : "9_Keep walking along the bike path.8. What is the last name of the dentist in the office buildings at 2323 Wooster Lane?",
+        "Rinaldi's" : "11_Follow bike path left along Palm Ridge Road.10. What is the name of the Fashion Shoe Store?",
+        "Rotary Club" : "6_Walk to the flag pole.5. Who donated the pole?",
+        "Six" : "15_Keep walking along the bike path (do not cross the street).14. How many figures are dancing on the Sanibel Bean logo?",
+        "Strauss" : "16_Keep walking along the bike path.15. The theater is called the Big Arts ______________ Theater?",
+        "Sun" : "14_Continue walking along the bike path.13. What is in the top stain glass at the front of the Saint Michael and All Angels Episcopal Church?",
+        "total" : 19,
+        "young" : "12_Keep walking along the path and discover a small park on your right.11. According to the green plaque, the four basic habitat elements are food, water, coverand places to raise _______________.",
+    }
+    
+}
