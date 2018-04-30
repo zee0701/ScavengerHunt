@@ -30,7 +30,7 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3dF-Rn-PME" id="Ym1-Mg-Gqa">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.666666666666671"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZI-MF-HYo">
@@ -221,7 +221,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GJf-c7-irb">
                                 <rect key="frame" x="0.0" y="312" width="414" height="442"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ihuntsanibel@gmail.com" borderStyle="roundedRect" placeholder="Email" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kWX-6r-mI8" userLabel="Email Text">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kWX-6r-mI8" userLabel="Email Text">
                                         <rect key="frame" x="42" y="10" width="331" height="54"/>
                                         <color key="backgroundColor" white="0.94755488889557971" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="textColor"/>
@@ -254,7 +254,7 @@
                                             <action selector="LoginClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dwH-AK-dT2"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="lori7766ad" borderStyle="roundedRect" placeholder="Password" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="feY-qK-btb">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="feY-qK-btb">
                                         <rect key="frame" x="42" y="115" width="331" height="54"/>
                                         <color key="backgroundColor" white="0.94585287996700829" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="textColor"/>
@@ -334,7 +334,7 @@
                         <outlet property="emailField" destination="kWX-6r-mI8" id="dV4-os-uMx"/>
                         <outlet property="fieldView" destination="GJf-c7-irb" id="FZ1-b2-atn"/>
                         <outlet property="password" destination="feY-qK-btb" id="CUF-CW-eZu"/>
-                        <segue destination="1Z5-RR-cfb" kind="show" identifier="cats" id="sjs-vD-zcL"/>
+                        <segue destination="1Z5-RR-cfb" kind="show" identifier="main" id="sjs-vD-zcL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -394,10 +394,10 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c1H-IW-CFk">
-                                <rect key="frame" x="86.666666666666686" y="136" width="240" height="33"/>
+                                <rect key="frame" x="86.666666666666686" y="136" width="240" height="44"/>
                                 <color key="backgroundColor" red="0.95677906274795532" green="0.95691639184951782" blue="0.95674914121627808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="WH4-Jz-laJ"/>
+                                    <constraint firstAttribute="height" constant="44" id="WH4-Jz-laJ"/>
                                     <constraint firstAttribute="width" constant="240" id="Xdd-5x-64k"/>
                                 </constraints>
                                 <nil key="textColor"/>
@@ -405,21 +405,21 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eR6-gt-Ewd">
-                                <rect key="frame" x="86.666666666666686" y="183" width="240" height="33"/>
+                                <rect key="frame" x="86.666666666666686" y="194" width="240" height="44"/>
                                 <color key="backgroundColor" red="0.95677906274795532" green="0.95691639184951782" blue="0.95674914121627808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="BXB-LG-020"/>
-                                    <constraint firstAttribute="height" constant="33" id="puv-IY-FqU"/>
+                                    <constraint firstAttribute="height" constant="44" id="puv-IY-FqU"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="whi-S3-ctQ">
-                                <rect key="frame" x="86.666666666666686" y="230" width="240" height="33"/>
+                                <rect key="frame" x="86.666666666666686" y="252" width="240" height="44"/>
                                 <color key="backgroundColor" red="0.95677906274795532" green="0.95691639184951782" blue="0.95674914121627808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="ZQh-jZ-XLg"/>
+                                    <constraint firstAttribute="height" constant="44" id="ZQh-jZ-XLg"/>
                                     <constraint firstAttribute="width" constant="240" id="hbZ-3e-r9a"/>
                                 </constraints>
                                 <nil key="textColor"/>

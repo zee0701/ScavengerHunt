@@ -7,20 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220BEBFB2089F832000DB6CB /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220BEBFA2089F832000DB6CB /* PlayVC.swift */; };
+		220BEBFD2089F9E6000DB6CB /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220BEBFC2089F9E6000DB6CB /* Puzzle.swift */; };
 		223F97A820656E1200685F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F97A720656E1200685F62 /* AppDelegate.swift */; };
 		223F97AA20656F6900685F62 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F97A920656F6900685F62 /* SignupViewController.swift */; };
+		2246D9652095B3CC00059227 /* RewardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2246D9642095B3CC00059227 /* RewardVC.swift */; };
+		2253A48820788CDA008DE8FB /* FrontViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253A48620788CDA008DE8FB /* FrontViewCell.swift */; };
+		2253A48920788CDA008DE8FB /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253A48720788CDA008DE8FB /* FrontViewController.swift */; };
+		2253A48B20788D94008DE8FB /* Hunts.json in Resources */ = {isa = PBXBuildFile; fileRef = 2253A48A20788D94008DE8FB /* Hunts.json */; };
+		2253A48D20788F14008DE8FB /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253A48C20788F14008DE8FB /* UserInfo.swift */; };
+		227F8062206F2494000C4B5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 227F8061206F2494000C4B5E /* GoogleService-Info.plist */; };
 		2298D86C1EE08658007F1173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2298D86A1EE08658007F1173 /* Main.storyboard */; };
 		2298D86E1EE08658007F1173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2298D86D1EE08658007F1173 /* Assets.xcassets */; };
 		2298D8711EE08659007F1173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2298D86F1EE08659007F1173 /* LaunchScreen.storyboard */; };
 		2298D88D1EE0879F007F1173 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298D87F1EE0879F007F1173 /* Extensions.swift */; };
 		2298D8911EE0879F007F1173 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298D8831EE0879F007F1173 /* LoginVC.swift */; };
 		2298D8921EE0879F007F1173 /* MessageBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298D8841EE0879F007F1173 /* MessageBox.swift */; };
-		FA528CC82067E27900C89F61 /* ScavengerHunt in Resources */ = {isa = PBXBuildFile; fileRef = FA528CC72067E27900C89F61 /* ScavengerHunt */; };
+		82DF7ACC55F754E463E3BD26 /* Pods_ScavengerHunt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15BB93C63CAA29FBE5E132 /* Pods_ScavengerHunt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220BEBFA2089F832000DB6CB /* PlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+		220BEBFC2089F9E6000DB6CB /* Puzzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
 		223F97A720656E1200685F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		223F97A920656F6900685F62 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		2246D9642095B3CC00059227 /* RewardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardVC.swift; sourceTree = "<group>"; };
+		2253A48620788CDA008DE8FB /* FrontViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontViewCell.swift; sourceTree = "<group>"; };
+		2253A48720788CDA008DE8FB /* FrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		2253A48A20788D94008DE8FB /* Hunts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hunts.json; sourceTree = "<group>"; };
+		2253A48C20788F14008DE8FB /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		227F8061206F2494000C4B5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2298D8631EE08658007F1173 /* ScavengerHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScavengerHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2298D86B1EE08658007F1173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2298D86D1EE08658007F1173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,7 +48,6 @@
 		521B734DD218DE773C9CB3B9 /* Pods-ScavengerHunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScavengerHunt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScavengerHunt/Pods-ScavengerHunt.debug.xcconfig"; sourceTree = "<group>"; };
 		BC15BB93C63CAA29FBE5E132 /* Pods_ScavengerHunt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScavengerHunt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0FAC6F15244AA7B0E34FF7 /* Pods-ScavengerHunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScavengerHunt.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScavengerHunt/Pods-ScavengerHunt.release.xcconfig"; sourceTree = "<group>"; };
-		FA528CC72067E27900C89F61 /* ScavengerHunt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ScavengerHunt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DF7ACC55F754E463E3BD26 /* Pods_ScavengerHunt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				2298D8651EE08658007F1173 /* ScavengerHunt */,
-				FA528CC72067E27900C89F61 /* ScavengerHunt */,
 				2298D8641EE08658007F1173 /* Products */,
 				522CCBF9BFB10F6A5DB9938D /* Pods */,
 				72AD0F4B13BB4EA07A0B596F /* Frameworks */,
@@ -68,15 +83,23 @@
 		2298D8651EE08658007F1173 /* ScavengerHunt */ = {
 			isa = PBXGroup;
 			children = (
+				227F8061206F2494000C4B5E /* GoogleService-Info.plist */,
+				220BEBFC2089F9E6000DB6CB /* Puzzle.swift */,
+				220BEBFA2089F832000DB6CB /* PlayVC.swift */,
 				223F97A920656F6900685F62 /* SignupViewController.swift */,
+				2246D9642095B3CC00059227 /* RewardVC.swift */,
 				2298D86A1EE08658007F1173 /* Main.storyboard */,
 				2298D86D1EE08658007F1173 /* Assets.xcassets */,
 				2298D86F1EE08659007F1173 /* LaunchScreen.storyboard */,
+				2253A48620788CDA008DE8FB /* FrontViewCell.swift */,
+				2253A48720788CDA008DE8FB /* FrontViewController.swift */,
 				2298D8721EE08659007F1173 /* Info.plist */,
 				2298D87F1EE0879F007F1173 /* Extensions.swift */,
 				2298D8831EE0879F007F1173 /* LoginVC.swift */,
 				2298D8841EE0879F007F1173 /* MessageBox.swift */,
 				223F97A720656E1200685F62 /* AppDelegate.swift */,
+				2253A48A20788D94008DE8FB /* Hunts.json */,
+				2253A48C20788F14008DE8FB /* UserInfo.swift */,
 			);
 			path = ScavengerHunt;
 			sourceTree = "<group>";
@@ -133,6 +156,7 @@
 				TargetAttributes = {
 					2298D8621EE08658007F1173 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UD8YNH949X;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -162,8 +186,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2298D8711EE08659007F1173 /* LaunchScreen.storyboard in Resources */,
+				227F8062206F2494000C4B5E /* GoogleService-Info.plist in Resources */,
 				2298D86E1EE08658007F1173 /* Assets.xcassets in Resources */,
-				FA528CC82067E27900C89F61 /* ScavengerHunt in Resources */,
+				2253A48B20788D94008DE8FB /* Hunts.json in Resources */,
 				2298D86C1EE08658007F1173 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,13 +202,24 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ScavengerHunt/Pods-ScavengerHunt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/TTGSnackbar/TTGSnackbar.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGSnackbar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScavengerHunt/Pods-ScavengerHunt-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DB5119A0B19E5D6DA0FA4EE5 /* [CP] Check Pods Manifest.lock */ = {
@@ -192,13 +228,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScavengerHunt-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E8DC846B29ECDE5F9CAFF8BF /* [CP] Copy Pods Resources */ = {
@@ -213,7 +252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScavengerHunt/Pods-ScavengerHunt-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -223,11 +262,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2253A48820788CDA008DE8FB /* FrontViewCell.swift in Sources */,
 				223F97A820656E1200685F62 /* AppDelegate.swift in Sources */,
+				2253A48920788CDA008DE8FB /* FrontViewController.swift in Sources */,
 				2298D88D1EE0879F007F1173 /* Extensions.swift in Sources */,
+				2253A48D20788F14008DE8FB /* UserInfo.swift in Sources */,
+				220BEBFD2089F9E6000DB6CB /* Puzzle.swift in Sources */,
 				223F97AA20656F6900685F62 /* SignupViewController.swift in Sources */,
+				2246D9652095B3CC00059227 /* RewardVC.swift in Sources */,
 				2298D8921EE0879F007F1173 /* MessageBox.swift in Sources */,
 				2298D8911EE0879F007F1173 /* LoginVC.swift in Sources */,
+				220BEBFB2089F832000DB6CB /* PlayVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,10 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UD8YNH949X;
 				INFOPLIST_FILE = ScavengerHunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.antzion.Scav;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scav.scav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -371,10 +416,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UD8YNH949X;
 				INFOPLIST_FILE = ScavengerHunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.antzion.Scav;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scav.scav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;

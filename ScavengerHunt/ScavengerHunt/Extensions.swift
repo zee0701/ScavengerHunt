@@ -2,6 +2,8 @@
 import Foundation
 import UIKit
 
+var totalHunts = NSDictionary()
+
 extension UIViewController{
     
     func hideKeyBoardWhenTapped(){

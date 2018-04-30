@@ -2,6 +2,7 @@
  
 import Foundation
 import UIKit
+import TTGSnackbar
 
 
 class MessageBox{
@@ -37,8 +38,8 @@ class MessageBox{
         return indicator
     }
     
-//    public static func ShowSnackbar(message: String){
-//        let bar = TTGSnackbar(message: message, duration: .middle)
-//        bar.show()
-//    }
+    public static func ShowSnackbar(message: String){
+        let bar = TTGSnackbar(message: message, duration: .middle)
+        bar.show()
+    }
 }

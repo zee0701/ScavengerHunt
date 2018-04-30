@@ -1,5 +1,6 @@
 
 import UIKit
+import Firebase
 
 class LoginVC: UIViewController {
 
@@ -19,6 +20,10 @@ class LoginVC: UIViewController {
         setUpTextFields()
         self.hideKeyBoardWhenTapped()
         indicator = MessageBox.SetupIndicator(view: self)
+        
+        if let id = Auth.auth().currentUser?.uid{
+            self.performSegue(withIdentifier: "main", sender: self)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -90,11 +95,56 @@ class LoginVC: UIViewController {
         let password = self.password.text
         if let em = email, let pass = password{
             print(em, pass)
+            self.signIn(email: em, password: pass)
         }
 
         
     }
 
+    private func signIn(email: String, password: String){
+        //var window = Popup.show(vc: self)
+        //Auth.auth().signIn(withEmail: <#T##String#>, password: <#T##String#>, completion: <#T##AuthResultCallback?##AuthResultCallback?##(User?, Error?) -> Void#>)
+        Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
+            //Popup.hide(alertWindow: window)
+            if let error = error{
+                if let erCode = AuthErrorCode(rawValue: error._code)
+                {
+                    
+                    switch erCode {
+                    case AuthErrorCode.userNotFound:
+                        DispatchQueue.main.async {
+                            //MessageBox.showSnackbar(message:"No such user")
+                            MessageBox.Show(message: "No such user", title: "Error", view: self)
+                        }
+                    case AuthErrorCode.invalidEmail:
+                        DispatchQueue.main.async {
+                            //MessageBox.showSnackbar(message:"Invalid email")
+                            MessageBox.Show(message: "Invalid Email", title: "Error", view: self)
+                        }
+                    case AuthErrorCode.wrongPassword:
+                        DispatchQueue.main.async {
+                            //MessageBox.showSnackbar(message:"Wrong password")
+                            MessageBox.Show(message: "Wrong password", title: "Error", view: self)
+                        }
+                    case AuthErrorCode.networkError:
+                        DispatchQueue.main.async {
+                            //MessageBox.showSnackbar(message:"Network error")
+                            MessageBox.Show(message: "Network error", title: "Error", view: self)
+                        }
+                    default:
+                        DispatchQueue.main.async {
+                            MessageBox.Show(message: error.localizedDescription, title: "Error", view: self)
+                        }
+                    }
+                }
+                return
+            }
+            
+            self.performSegue(withIdentifier: "main", sender: self)
+            //self.performSegue(withIdentifier: "main", sender: self)
+        }
+    }
+    
     @IBAction func continueAction(_ sender: UIButton) {
         self.performSegue(withIdentifier: "cats", sender: self)
     }
