@@ -30,7 +30,7 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3dF-Rn-PME" id="Ym1-Mg-Gqa">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.666666666666671"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZI-MF-HYo">
@@ -66,11 +66,79 @@
                     <navigationItem key="navigationItem" title="Hunts" id="lI2-5i-e1M"/>
                     <connections>
                         <segue destination="ta0-5M-Aub" kind="show" identifier="play" id="n71-Hh-1Pe"/>
+                        <segue destination="Mzr-oJ-22J" kind="show" identifier="scoreSegue" id="Uyn-51-I1R"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yAB-BR-CYI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4199" y="1749"/>
+        </scene>
+        <!--Score Board-->
+        <scene sceneID="70w-Dr-nSv">
+            <objects>
+                <viewController title="Score Board" id="Mzr-oJ-22J" customClass="ScoreViewController" customModule="ScavengerHunt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wRn-Pt-GXj"/>
+                        <viewControllerLayoutGuide type="bottom" id="hpr-Ty-PAy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rdp-2e-V5D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qw5-lf-Xhr">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellId" rowHeight="56" id="Dbo-uj-Dne">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dbo-uj-Dne" id="N5j-Q3-3yW">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="55.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="349" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSP-uu-wCL">
+                                                    <rect key="frame" x="74" y="17" width="45" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="24" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcR-EQ-ufh">
+                                                    <rect key="frame" x="295.33333333333331" y="17" width="44.666666666666686" height="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="XcR-EQ-ufh" secondAttribute="trailing" constant="74" id="HH3-7g-Z3D"/>
+                                                <constraint firstItem="XcR-EQ-ufh" firstAttribute="centerY" secondItem="N5j-Q3-3yW" secondAttribute="centerY" id="gsN-WD-gaB"/>
+                                                <constraint firstItem="eSP-uu-wCL" firstAttribute="centerY" secondItem="N5j-Q3-3yW" secondAttribute="centerY" id="rMr-0U-P6V"/>
+                                                <constraint firstItem="eSP-uu-wCL" firstAttribute="leading" secondItem="N5j-Q3-3yW" secondAttribute="leading" constant="74" id="tp2-cq-72J"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Mzr-oJ-22J" id="IRI-F5-Qot"/>
+                                    <outlet property="delegate" destination="Mzr-oJ-22J" id="vAL-m0-Cj7"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.59999999999999998" green="0.40000000000000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qw5-lf-Xhr" secondAttribute="trailing" id="5TB-d3-CAW"/>
+                            <constraint firstItem="hpr-Ty-PAy" firstAttribute="top" secondItem="qw5-lf-Xhr" secondAttribute="bottom" id="P7n-0R-bqr"/>
+                            <constraint firstItem="qw5-lf-Xhr" firstAttribute="top" secondItem="wRn-Pt-GXj" secondAttribute="bottom" id="cEF-RZ-w6D"/>
+                            <constraint firstItem="qw5-lf-Xhr" firstAttribute="leading" secondItem="Rdp-2e-V5D" secondAttribute="leading" id="mGf-he-pxe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scoreTable" destination="qw5-lf-Xhr" id="p8N-j5-SmZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h8D-aD-eCg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4204.347826086957" y="2445.6521739130435"/>
         </scene>
         <!--PlayVC-->
         <scene sceneID="8Ya-JA-lZb">

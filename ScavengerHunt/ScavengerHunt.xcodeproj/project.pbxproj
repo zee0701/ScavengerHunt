@@ -23,6 +23,7 @@
 		2298D88D1EE0879F007F1173 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298D87F1EE0879F007F1173 /* Extensions.swift */; };
 		2298D8911EE0879F007F1173 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298D8831EE0879F007F1173 /* LoginVC.swift */; };
 		2298D8921EE0879F007F1173 /* MessageBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298D8841EE0879F007F1173 /* MessageBox.swift */; };
+		22C976A4209D7BAC001EE3F5 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C976A3209D7BAC001EE3F5 /* ScoreViewController.swift */; };
 		82DF7ACC55F754E463E3BD26 /* Pods_ScavengerHunt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15BB93C63CAA29FBE5E132 /* Pods_ScavengerHunt.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		2298D87F1EE0879F007F1173 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2298D8831EE0879F007F1173 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		2298D8841EE0879F007F1173 /* MessageBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBox.swift; sourceTree = "<group>"; };
+		22C976A3209D7BAC001EE3F5 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		521B734DD218DE773C9CB3B9 /* Pods-ScavengerHunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScavengerHunt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScavengerHunt/Pods-ScavengerHunt.debug.xcconfig"; sourceTree = "<group>"; };
 		BC15BB93C63CAA29FBE5E132 /* Pods_ScavengerHunt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScavengerHunt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0FAC6F15244AA7B0E34FF7 /* Pods-ScavengerHunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScavengerHunt.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScavengerHunt/Pods-ScavengerHunt.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				223F97A720656E1200685F62 /* AppDelegate.swift */,
 				2253A48A20788D94008DE8FB /* Hunts.json */,
 				2253A48C20788F14008DE8FB /* UserInfo.swift */,
+				22C976A3209D7BAC001EE3F5 /* ScoreViewController.swift */,
 			);
 			path = ScavengerHunt;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				2298D8921EE0879F007F1173 /* MessageBox.swift in Sources */,
 				2298D8911EE0879F007F1173 /* LoginVC.swift in Sources */,
 				220BEBFB2089F832000DB6CB /* PlayVC.swift in Sources */,
+				22C976A4209D7BAC001EE3F5 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

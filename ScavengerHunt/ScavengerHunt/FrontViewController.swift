@@ -102,8 +102,19 @@ class FrontViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         UserInfo.SelectedHunt = self.hunts[indexPath.row]
+        let alert = UIAlertController(title: "Choose", message: nil, preferredStyle: .actionSheet)
+        let action = UIAlertAction(title: "Play", style: .default) { (action) in
+            self.performSegue(withIdentifier: "play", sender: self)
+        }
         
-        self.performSegue(withIdentifier: "play", sender: self)
+        let actionScore = UIAlertAction(title: "Score Board", style: .default) { (action) in
+            self.performSegue(withIdentifier: "scoreSegue", sender: self)
+        }
+        
+        alert.addAction(action)
+        alert.addAction(actionScore)
+        self.present(alert, animated: true, completion: nil)
+        
         
     }
     

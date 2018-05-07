@@ -103,12 +103,15 @@ class PlayVC: UIViewController, UITextFieldDelegate{
     
     
     func timerKicked(){
-        puzzleField.text = puzzleField.text + String(pChar[timerTick])
         
-        timerTick += 1
+        
+        
         if timerTick == pChar.count{
             timer?.invalidate()
+            return
         }
+        puzzleField.text = puzzleField.text + String(pChar[timerTick])
+        timerTick += 1
         print("Timer Kicking")
     }
     
@@ -160,6 +163,7 @@ class PlayVC: UIViewController, UITextFieldDelegate{
         }
         else{
             wrong += 1
+            currentPuzzle += 1
             UserDefaults.standard.set(wrong, forKey: "\(self.currentPuzzle)_wrong")
             MessageBox.ShowSnackbar(message: "Wrong Answer")
             if currentPuzzle < puzzles.count{
@@ -179,7 +183,7 @@ class PlayVC: UIViewController, UITextFieldDelegate{
             }
         }
         
-        
+        writeScoreToFirebase()
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
@@ -196,7 +200,7 @@ class PlayVC: UIViewController, UITextFieldDelegate{
             return
         }
         let ref = Database.database().reference(withPath: "score/\(hunt)/\(id)")
-        ref.updateChildValues(["score": self.puzzles.count - self.wrong])
+        ref.updateChildValues(["score": self.currentPuzzle - self.wrong, "total" : self.currentPuzzle])
     }
     
     
