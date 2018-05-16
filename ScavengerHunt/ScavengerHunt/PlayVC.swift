@@ -102,7 +102,7 @@ class PlayVC: UIViewController, UITextFieldDelegate{
     }
     
     
-    func timerKicked(){
+    @objc func timerKicked(){
         
         
         
@@ -133,7 +133,7 @@ class PlayVC: UIViewController, UITextFieldDelegate{
                 shouldStartFilling = true
             }
         }
-        timer = Timer.scheduledTimer(timeInterval: 0.10, target: self, selector: Selector("timerKicked"), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 0.10, target: self, selector: #selector(self.timerKicked), userInfo: nil, repeats: true)
     }
     
     

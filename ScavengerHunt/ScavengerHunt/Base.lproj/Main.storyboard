@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tIC-4t-hJ5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tIC-4t-hJ5">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="AvenirNext.ttc">
-            <string>AvenirNext-Medium</string>
-            <string>AvenirNext-Regular</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Categories-->
         <scene sceneID="aUs-dh-OPH">
@@ -110,8 +104,10 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="XcR-EQ-ufh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="N5j-Q3-3yW" secondAttribute="leading" constant="20" symbolic="YES" id="BUo-Us-gg9"/>
                                                 <constraint firstAttribute="trailing" secondItem="XcR-EQ-ufh" secondAttribute="trailing" constant="74" id="HH3-7g-Z3D"/>
                                                 <constraint firstItem="XcR-EQ-ufh" firstAttribute="centerY" secondItem="N5j-Q3-3yW" secondAttribute="centerY" id="gsN-WD-gaB"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eSP-uu-wCL" secondAttribute="trailing" constant="20" symbolic="YES" id="hlp-gC-Caj"/>
                                                 <constraint firstItem="eSP-uu-wCL" firstAttribute="centerY" secondItem="N5j-Q3-3yW" secondAttribute="centerY" id="rMr-0U-P6V"/>
                                                 <constraint firstItem="eSP-uu-wCL" firstAttribute="leading" secondItem="N5j-Q3-3yW" secondAttribute="leading" constant="74" id="tp2-cq-72J"/>
                                             </constraints>
@@ -442,11 +438,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59F-Dd-HFF" customClass="DesignableButton" customModule="ScavengerHunt" customModuleProvider="target">
-                                <rect key="frame" x="107" y="653" width="200" height="40"/>
+                                <rect key="frame" x="163" y="653" width="88" height="40"/>
                                 <color key="backgroundColor" red="0.15270176529884338" green="0.67303138971328735" blue="0.88951945304870605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="MZ7-ao-HlC"/>
-                                    <constraint firstAttribute="width" constant="200" id="rKb-Q9-B2y"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
                                 <state key="normal" title="Sign Up">
@@ -462,21 +457,19 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c1H-IW-CFk">
-                                <rect key="frame" x="86.666666666666686" y="136" width="240" height="44"/>
+                                <rect key="frame" x="163" y="136" width="87.333333333333314" height="44"/>
                                 <color key="backgroundColor" red="0.95677906274795532" green="0.95691639184951782" blue="0.95674914121627808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="WH4-Jz-laJ"/>
-                                    <constraint firstAttribute="width" constant="240" id="Xdd-5x-64k"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eR6-gt-Ewd">
-                                <rect key="frame" x="86.666666666666686" y="194" width="240" height="44"/>
+                                <rect key="frame" x="179" y="194" width="55.666666666666657" height="44"/>
                                 <color key="backgroundColor" red="0.95677906274795532" green="0.95691639184951782" blue="0.95674914121627808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="BXB-LG-020"/>
                                     <constraint firstAttribute="height" constant="44" id="puv-IY-FqU"/>
                                 </constraints>
                                 <nil key="textColor"/>
@@ -484,11 +477,10 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="whi-S3-ctQ">
-                                <rect key="frame" x="86.666666666666686" y="252" width="240" height="44"/>
+                                <rect key="frame" x="165" y="252" width="83.666666666666686" height="44"/>
                                 <color key="backgroundColor" red="0.95677906274795532" green="0.95691639184951782" blue="0.95674914121627808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="ZQh-jZ-XLg"/>
-                                    <constraint firstAttribute="width" constant="240" id="hbZ-3e-r9a"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>

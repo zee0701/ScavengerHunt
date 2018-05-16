@@ -105,6 +105,9 @@ class LoginVC: UIViewController {
         //var window = Popup.show(vc: self)
         //Auth.auth().signIn(withEmail: <#T##String#>, password: <#T##String#>, completion: <#T##AuthResultCallback?##AuthResultCallback?##(User?, Error?) -> Void#>)
         Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
+            DispatchQueue.main.async {
+                UIApplication.shared.endIgnoringInteractionEvents()
+            }
             //Popup.hide(alertWindow: window)
             if let error = error{
                 if let erCode = AuthErrorCode(rawValue: error._code)

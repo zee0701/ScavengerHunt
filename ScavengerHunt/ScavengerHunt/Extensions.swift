@@ -7,12 +7,12 @@ var totalHunts = NSDictionary()
 extension UIViewController{
     
     func hideKeyBoardWhenTapped(){
-        let tap = UITapGestureRecognizer(target: self, action: Selector("hideKeyboard"))
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.hideKeyboard))
         tap.cancelsTouchesInView = false
         self.view.addGestureRecognizer(tap)
     }
     
-    func hideKeyboard(){
+    @objc func hideKeyboard(){
         self.view.endEditing(true)
     }
     
