@@ -1,93 +1,127 @@
 {
     "Hunts" :     {
-        "-Km7seMIOsj4CGtRaVtP" : "Periwinkle Park",
-        "-Km7u77xucwiSOypba7y" : "Sanibel Public Library",
-        "-Km7e" : "Parking"
+        "-Km7s" : "University Parking",
+        "-Km7u" : "University Library",
+        "-Km7e" : "University Map",
+        "-Km7w" : "University Building B"
     },
     
-    "Periwinkle Park" :     {
-        "OK" : "1_The start for this hunt is Bailey Homestead Preserve parking lot at 1300 Periwinkle Way.This hunt is approximately 1.8 miles long.\nPlease Note:\n-Hunt at your own risk\n-Beware of your surroundings\n-Apply sunscreen\n-Stay hydrated\n-Answers are case sensitive and must match exactly\nPlease enter OK to continue",
+    
+    
+    "University Parking" :     {
+        "OK" : "1_The Start for this hunt is University of Deakin. This hunt is approximately 1.8 miles long.\nPlease Note:\n-Hunt at your own risk\n-Beware of your surroundings\n-Apply sunscreen\n-Stay hydrated\n-Answers are case sensitive and must match exactly\nPlease enter OK to continue",
         
-        "Lions" : "2_Cross over Periwinkle Way at the cross walk. Turn left and walk along the bike path and then turn right down Donax Street. 1. What animal name in on the benches?",
+        "5" : "2_Enter through the gate 2 in University. As you emter please park your car in the Parking Building. 1.How many parking levels do you see?",
         
-         "30" : "3_Keep walking along the bike path beside Donax Street. 2. What is the speed limit?",
+        "1" : "3_Ok now lets see what you can find in the parking building as there is parking ticket machine. 2.How many are there? Hint: See East level 3",
         
-        "Water" : "4_Keep walking along the bike path beside Donax Street. 3. What is reclaimed at the facility under the American Flag?",
+        "Statue" : "4_Lets come out of parking building. 3.What is the thing in the park you can see?",
         
-        "3669" : "5_Keep walking along the bike path until you come to a green metal box. 4. What are the numbers on the small green electric box?",
+        "Bicycle" : "5_Now you found a Statue Great. Lets see the surroundings. 4.What can you see near Statue? Hint: It has 2 wheels only...",
         
-         "811" : "6_Keep walking along the bike path until you come to another green metal box. 5. What number do you call before you dig?",
+         "HH" : "6_Good Job, Lets see if you can find a unique thing about bicycle. 5.Can you tell what the location is called?",
         
-        "4" : "7_Cross over the Sanibel River and look to your right. 6. What number is on the top of the water height meter?",
+        "2" : "7_Can you see anything which can get you drinks and snacks such as vending machine. 6.How many are there in Parking area?",
         
-        "Gopher Tortoise" : "8_Pass Sanibel Shores Condos and cross left over Donax Street onto Junonia Street. 7. What kind of animal crosses here",
+        "Disable" : "8_Near Vendng Machine, you can find parking lots. 7.What type of parking can be made near Vending Machine?",
         
-        "12082" : "9_Walk along Junonia Street and look for a mailbox with a sand dollar. 8. What number is on the mailbox?",
+        "Green" : "9_Lets see if your eyes are strong enough to notice small changes in the bay of level 8. Can you spot the color of the first line bay in level 2?",
         
-        "No" : "10_Go straight where the sign says No Outlet. 9. Are dogs allowed?",
+        "Permit Zone" : "10_Great You did it, As you can see the green bays so can you see the information of green bay. 9. What is the zone? Hint: Paid Zone People",
         
-        "Young" : "11_Stay on the main dirt road. 10. What is the name on the solar contraption by the river?",
+        "8 hours" : "11_There is designated parking timings. 10. Can you calculate how many hours? Hinr: Time: 0830 to 1630.",
         
-        "Zoe" : "12_Keep walking along the road. Look into the second birdcage on the right. 11. What is the girl\\U2019s name on the sign?",
+        "4" : "12_Lets make it interesting! Can you find the stairs on the parking level you are on. 11.How many staircase way are there?",
         
-        "Fred" : "13_Walk over to the main zoo. 12. What is the name of the Green-winged Macaw from South America?",
+        "OK" : "13_Now Lets move to the Library Area. Enter OK",
+
         
-        "1149" : "14_Walk out of the main entrance of Periwinkle Park & Campground and turn left and walk along the bike path beside Periwinkle Way. 13. What number is on the sign where the Sanibel Sunglass Corporate Office is located?",
-        
-         "Junonia" : "15_Keep walking along the bike path beside Periwinkle Way. 14. What large shell is on the She Shells Sea Shells sign?",
-        
-         "Wiren" : "16_Keep walking along the bike path beside Periwinkle Way and enter the gazebo. 15. What is the last name of the husband and wife that came to Sanibel is 1884?",
-        
-        "Moon" : "17_Keep walking along the bike path beside Periwinkle Way. 16. Who is \\U201csipping\\U201d on pasta at Matzaluna\\U2019s Restaurant?",
-        
-       "Fish" : "18_Keep walking along the bike path beside Periwinkle Way. 17. What is the shape of the orange and white chairs in front of the Anchor Inn?",
-        
-        "total" : 18
+        "total" : 13
     },
     
-    "Sanibel Public Library" :     {
-        "OK" : "1_Park at the Sanibel Public Library. 770 Dunlop Road, Sanibel, FL 33957 This hunt is approximately 1.2 mile long.\nPlease Note:\n-Hunt at your own risk\n-Beware of your surroundings\n-Apply sunscreen\n-Stay hydrated\n-Answers are case sensitive and must match exactly\nPlease enter OK to continue.",
+    
+    "University Library" :     {
+        "V" : "1_Are you at the front of the Library. 1.What is the library building named?",
         
-         "472-3700" : "2_Walk along the paved driveway to the next grey building which is City Hall. Walk behind City Hall through the gravel parking lot to the Native Plant Demonstration Garden. 1. According to the sign, what number should you call for more information?",
+        "Cafeteria" : "2_Lets go in the library. 2.What is at your leftside? Hint: What is the eating place called in school",
         
-        "Dolphin" : "3_Walk left on the sidewalk and and look up to the roof. 2.What animal is on top of the weathervane?",
+        "2" : "3_Lets move into the library. 3.What level are you at? Hint: CHeck the information Board",
         
-        "Five" : "4_Walk up the main steps.3. How many benches at at the top of the steps?",
+        "Lenovo" : "4_Great Job LEts go to the level 2 Computer area. 4.What is the name of the computer company name?",
         
-        "1983" : "5_Go down the next set of steps out the front. 4. According the brass plaque at the bottom of the steps, what year was this City Hall dedicated?",
+        "2" : "5_Can you see the printers. 5.How many are there?",
         
+        "3" : "6_Now go back to the information Board you saw previously. 6.How many levels are there?",
         
-        "Rotary Club" : "6_Walk to the flag pole. 5. Who donated the pole?",
+        "17" : "7_lets go to level 1, lets check your brain strength. 7.Can you tell how many steps did you take to go down?",
         
-        "Palm Ridge Road" : "7_Make your way to the main road and cross over to the bike path and walk right. 6. According to the green sign, what road is straight ahead?",
+        "3" : "8_Can you spot any study rooms. 8.How many study rooms are there?",
         
-        "Mahogany" : "8_Keep walking around the bend to the left. 7. What road do you cross over (orange sign)?",
+        "LG" : "9_So there is room named v1.33 can you spot tv in that room. 9.Can you tell the brand name of tv? HINT: Write in CAPITAL",
         
-        "Rembos" : "9_Keep walking along the bike path. 8. What is the last name of the dentist in the office buildings at 2323 Wooster Lane?",
+        "Keep Silent" : "10_Lets move towards level 3. 10.Can you see any words on the big board written, What are they?",
         
-        "171" : "10_Keep walking along the bike path. 9. What number is the fire station?",
+        "4" : "11_Go to your right and there are study rooms. 11.How many study rooms can you spot?",
         
-        "Rinaldi's" : "11_Follow bike path left along Palm Ridge Road.10. What is the name of the Fashion Shoe Store?",
+        "6" : "12_Lets see if you remember that big board did you saw study booths. 12.How many were there?",
         
-        "young" : "12_Keep walking along the path and discover a small park on your right. 11. According to the green plaque, the four basic habitat elements are food, water, coverand places to raise _______________.",
-        
-        "2340" : "13_Go back out to the bike path and continue walking to the right. 12. What is the address of the Village shops?",
+        "2" : "13_Lets go back to the door of library do you see self book checkout. 13.How many are there?",
        
-        "Sun" : "14_Continue walking along the bike path. 13. What is in the top stain glass at the front of the Saint Michael and All Angels Episcopal Church?",
+        "1" : "14_Lets move out to the right side do you see vending machines in front of you. 14.How many are there?",
         
         "Six" : "15_Keep walking along the bike path (do not cross the street). 14. How many figures are dancing on the Sanibel Bean logo?",
         
-        "Strauss" : "16_Keep walking along the bike path. 15. The theater is called the Big Arts ______________ Theater?",
-        
-        "Periwinkle Pines" : "17_Keep walking and curve left on the bike path toward library, city hall, etc. 16. What is the housing development called across the street to your right?",
-        
-        "Hose" : "18_Keep walking through some curves in the bike path. 17. What is hanging on the outside of the small block building behind the green chain link fence?",
-        
-        "Keystone" : "19_Keep walking and cross the crosswalk to the library. 18. What is the silver statue called in the front of the library?",
-        
-        "total" : 19,
+        "OK" : "16_Now lets find a Deakin Map. you saw the map while coming towards the library 15.Can you find it? Enter OK",
+     
+        "total" : 16,
         
     },
     
+    
+    "University Map" :     {
+        "OK" : "1_Now you are at Deakin Map this stage is the easy one lets Begin Enter OK",
+        
+        "2" : "2_Lets start with easy Questions can you find the enterance of the university. 1.How many are there?",
+        
+        "2" : "3_Do you remember your parking area and the names of the building. 2.How many buildings are for parking?",
+        
+        "9" : "4_Can you spot the accesseble parking. 3. How many are there?",
+        
+        "HF" : "5_As you can see there is Bus stop as well. 4.Can you spot the bus stop is in which building?",
+        
+        
+        "5" : "6_Through out the university there are drinking water station. 5.How many are there?",
+        
+        "HB" : "7_There is student central in the university. 6.What is the name of the building?",
+        
+        "V" : "8_There is library in the map. 7.What is the name of the building?",
+        
+        "32" : "9_Can you spot the building of university only. 8.Can you tell how many (Alphabetically) building are there in university?",
+        
+        "OK" : "10_Good Job now you have memorised the university map. Enjoy the Campus! /n If you want to play more you can play Building B which has easy 5 questions. /n THE END /n PLease ENTER OK",
+        
+        "total" : 10,
+        
+    },
+    
+    
+    "University Building B" :     {
+        "2" : "1_Lets Play Can you see the Building information Board when you enter the Building. 1.Which Level are you on?",
+        
+        "4" : "2_So on Information Board Can you see the levels. 2.How many levels are there?",
+        
+        "3" : "3_On level 2 there is a study room which is 24/7. 3.Can you tell how many Mac are there?",
+        
+        "1" : "4_When you went to check for mac did you saw the printers. 4.Can you tell how many are there?",
+        
+        "3" : "5_Go to Level 3 you will find vending machine. 4. How many are there?",
+        
+        
+        "OK" : "6_Thank you for playing this Game. Have Fun in University Please Enter OK",
+        
+       
+        "total" : 6,
+        
+    }
     
 }

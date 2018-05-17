@@ -1413,7 +1413,7 @@ NSString *const kGTMSessionFetcherUploadLocationObtainedNotification =
                             chunkFetcher, chunkFetcher.request.allHTTPHeaderFields,
                             responseHeaders);
 #endif
-    if (isUploadStatusStopped || (_currentOffset                                 > _uploadFileLength && _uploadFileLength > 0)) {
+    if (isUploadStatusStopped || (_currentOffset > _uploadFileLength && _uploadFileLength > 0)) {
       // This was the last chunk.
       if (error == nil && uploadStatus == kStatusCancelled) {
         // Report cancelled status as an error.
